@@ -7,7 +7,7 @@ Inside your Alt:V resource directory:
     git clone https://github.com/n1xx1/altv-typescript-example.git
     cd altv-typescript-example
     npm install
-    npm run build
+    npx gulp build
 
 ## Features
 
