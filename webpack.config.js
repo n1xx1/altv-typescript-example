@@ -1,36 +1,3 @@
-/*
-Project folder structure:
-- src
-  - client
-    - @types
-      - ...
-    - tsconfig.json
-    - index.ts
-    - ... 
-  - server
-    - @types
-      - ...
-    - tsconfig.json
-    - index.ts
-    - ... 
-  - render 
-    - tsconfig.json
-    - myview1.view.tsx
-    - myview2.view.tsx
-    - ...
-
-Generated files:
-- build
-  - render
-    - view_myview1.html
-    - view_myview1.js
-    - view_myview2.html
-    - view_myview2.js
-    - ...
-  - client.mjs
-  - server.mjs
-*/
-
 const WrapperPlugin = require("wrapper-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
